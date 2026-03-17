@@ -4,17 +4,19 @@ body {
 }
 
 .stars {
+  margin: 0;
   display: flex;
+  padding: 0;
+  list-style: none;
 }
 
 .stars__star {
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  background-image: url('images/a.svg');
+  background-image: url(../src/images/star.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
 }
 
 .stars__star:last-child {
@@ -26,5 +28,5 @@ body {
 .stars--3 .stars__star:nth-child(-n + 3),
 .stars--4 .stars__star:nth-child(-n + 4),
 .stars--5 .stars__star:nth-child(-n + 5) {
-  background-image: url('images/y.svg');
+  background-image: url(../src/images/star-active.svg);
 }
