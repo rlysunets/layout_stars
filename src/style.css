@@ -11,8 +11,6 @@ body {
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  border-radius: 0.5px;
-
   background-image: url('images/a.svg');
   background-repeat: no-repeat;
   background-position: center;
